@@ -35,3 +35,5 @@ Ao final deve se exibir uma mensagem:
 - "o {tipo} atacou usando {ataque}"
   ex: mago atacou usando magia
   guerreiro atacou usando espada
+
+  Observação: Não possuo autoria do desenvolvimento desse README e está sendo utilizado apenas para informações relacionadas aos estudos na DIO
