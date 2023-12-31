@@ -1,3 +1,4 @@
+
 let heroClasses = {
     Mage: {
         className: "Mago",
@@ -17,8 +18,6 @@ let heroClasses = {
     }
 }
 
-
-
 class heroPlayer{
     constructor(name, age, type){
         this.heroName = name
@@ -27,6 +26,10 @@ class heroPlayer{
     }
 
     announceAttack(){
-        console.log(`\n${this.heroClass[0]} atacou usando ${this.heroClass[1]}\n`)
+        console.log(`\n${this.heroClass.className} atacou usando ${this.heroClass.classAttack}\n`)
     }
 }
+
+let Alona = new heroPlayer("Alona", 25, heroClasses.Monk)
+
+Alona.announceAttack()
